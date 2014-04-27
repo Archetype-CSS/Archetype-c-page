@@ -1,0 +1,26 @@
+/*** @export "..." css */
+/**
+ * Page Component Settings
+ * 
+ */
+$pageSettings: (
+  // main body copy
+  bodyCopy: (
+    font: #,
+    color: #,
+    bg: #
+  ),
+  // secondary copy
+  secondaryCopy: (
+    font: #,
+    color: #,
+    bg: #
+  ),
+  // footer copy
+  footerCopy: (
+    font: #,
+    color: #,
+    bg: #
+  ),
+);
+
