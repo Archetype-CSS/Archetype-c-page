@@ -1,4 +1,3 @@
-/*** @export "page" css */
 /**
  * Page
  *
@@ -7,9 +6,10 @@
  * 3. Removes default margin
  * 
  */
+@import "_c-page-settings.scss";
 
 html {
-  font-family: $copy--body-font;                          /* 1 */
+  font-family: _u-deepGet($typography--skin, fontStack, georgia);  /* 1 */
   -webkit-text-size-adjust: 100%;                         /* 2 */
   -ms-text-size-adjust: 100%;                             /* 2 */
   overflow-y: scroll;
