@@ -6,21 +6,21 @@
 $pageSettings: (
   // main body copy
   bodyCopy: (
-    //font: #,
-    //color: #,
-    //bg: #
+    font: _u-deepGet($typography--skin, fontStack, georgia),
+    color: black(0),
+    bg: white(0)
   ),
   // secondary copy
   secondaryCopy: (
-    //font: #,
-    //color: #,
-    //bg: #
+    font: _u-deepGet($typography--skin, fontStack, georgia),
+    color: black(0),
+    bg: white(0)
   ),
   // footer copy
   footerCopy: (
-    //font: #,
-    //color: #,
-    //bg: #
+    font: _u-deepGet($typography--skin, fontStack, georgia),
+    color: black(0),
+    bg: white(0)
   ),
 );
 

@@ -1,0 +1,22 @@
+/**
+ * Test: Archetype/u-text.scss
+ *
+ */
+
+//dependencies:
+@import '../../bower_components/Archetype-u-componentConstructor/_u-componentConstructor';
+@import '../../bower_components/Archetype-u-colorkit/_u-colorkit';
+@import '../../bower_components/Archetype-u-colorkit/_u-colorkit-settings';
+@import '../../bower_components/Archetype-c-typography/_c-typography';
+//main style sheet
+@import '../../_c-page.scss';
+
+
+
+/**
+ * example test class
+ */
+.test__u-textCenter {
+  @extend %u-textCenter;
+}
+

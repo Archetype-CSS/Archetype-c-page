@@ -1,27 +1,23 @@
 /**
- * Page
+ * Archetype Page Component
  *
- * 1. Sets default font family to $body-font - defined in _settings.scss partial
- * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom.
- * 3. Removes default margin
+ * 1. Prevents iOS text size adjust after orientation change, without disabling user zoom.
  * 
  */
 @import "_c-page-settings.scss";
 
 html {
-  font-family: _u-deepGet($typography--skin, fontStack, georgia);  /* 1 */
-  -webkit-text-size-adjust: 100%;                         /* 2 */
-  -ms-text-size-adjust: 100%;                             /* 2 */
+  -webkit-text-size-adjust: 100%;   /* 1 */
+  -ms-text-size-adjust: 100%;   /* 1 */
   overflow-y: scroll;
   min-height: 100%;
 }
 
 body {
-  color: $copy--body-color-txt;
-  background: $copy--body-color-bg;
-  font-family: $copy--body-txt;
+  color: _u-deepGet($pageSettings, bodyCopy, color);
+  background: _u-deepGet($pageSettings, bodyCopy, bg);
   font-weight: normal;
-  margin: 0;                                              /* 3 */
+  margin: 0;
   padding: 0;
   width: 100%;
   min-height: 100%;
