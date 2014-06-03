@@ -6,19 +6,19 @@
 $pageSettings: (
   // main body copy
   bodyCopy: (
-    font: _u-deepGet($typography--skin, fontStack, georgia),
+    font: u-deepGet($typography--skin, fontStack, georgia),
     color: black(0),
     bg: white(0)
   ),
   // secondary copy
   secondaryCopy: (
-    font: _u-deepGet($typography--skin, fontStack, georgia),
+    font: u-deepGet($typography--skin, fontStack, georgia),
     color: black(0),
     bg: white(0)
   ),
   // footer copy
   footerCopy: (
-    font: _u-deepGet($typography--skin, fontStack, georgia),
+    font: u-deepGet($typography--skin, fontStack, georgia),
     color: black(0),
     bg: white(0)
   ),
