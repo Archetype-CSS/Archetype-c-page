@@ -14,8 +14,8 @@ html {
 }
 
 body {
-  color: _u-deepGet($pageSettings, bodyCopy, color);
-  background: _u-deepGet($pageSettings, bodyCopy, bg);
+  color: u-deepGet($pageSettings, bodyCopy, color);
+  background: u-deepGet($pageSettings, bodyCopy, bg);
   font-weight: normal;
   margin: 0;
   padding: 0;
