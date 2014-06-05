@@ -1,4 +1,5 @@
-# Archetypec-page [![Build Status](https://secure.travis-ci.org/Archetype-CSS/c-page.png?branch=master)](http://travis-ci.org/Archetype-CSS/c-page) [![Dependency Status](https://gemnasium.com/Archetype-CSS/Archetype-c-page.svg)](https://gemnasium.com/Archetype-CSS/Archetype-c-page) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# Archetypec-page [![Build Status](https://secure.travis-ci.org/Archetype-CSS/Archetype-c-page.png?branch=master)](http://travis-ci.org/Archetype-CSS/Archetype-c-page) [![Dependency Status](https://gemnasium.com/Archetype-CSS/Archetype-c-page.svg)](https://gemnasium.com/Archetype-CSS/Archetype-c-page) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
 
 Archetype page component
 
